@@ -1,0 +1,5 @@
+{
+  "name": "studio-baseplate",
+  "owner": { "name": "dexshii" },
+  "plugins": [{ "name": "studio-baseplate", "source": "./" }]
+}
