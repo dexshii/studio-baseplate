@@ -1,6 +1,6 @@
 {
   "name": "studio-baseplate",
   "version": "0.2.0",
-  "description": "Roblox Studio inspired look for the Claude desktop app: Studio grays, Studio blue, a baseplate stud grid with floating bricks and falling Luau code, plus an MP3 music player (/muzik)",
+  "description": "Roblox Studio inspired look for the Claude desktop app: Studio grays, Studio blue, a baseplate stud grid with floating bricks and falling Luau code, plus an MP3 music player (/studio-muzik)",
   "license": "MIT"
 }

@@ -16,13 +16,48 @@ The theme draws in the desktop and mobile apps. The terminal draws no theme.
 
 ## Install
 
-In a Claude Code terminal session:
+**From a terminal** (Claude Code CLI, not the desktop app). Update first, since themes need a recent version:
+
+```
+claude update
+```
+
+Then, in a Claude Code session:
 
 ```
 /plugin install studio-baseplate --marketplace dexshii/studio-baseplate
 ```
 
-Answer `y` to add the marketplace, then pick a scope.
+Answer `y` to add the marketplace, then pick the **user** scope.
+
+If that line says the option is unknown, use the two-step form:
+
+```
+/plugin marketplace add dexshii/studio-baseplate
+/plugin install studio-baseplate@studio-baseplate
+```
+
+Or from a shell (PowerShell, cmd, Terminal):
+
+```
+claude plugin marketplace add dexshii/studio-baseplate
+claude plugin install studio-baseplate@studio-baseplate
+```
+
+**In the desktop app** `/plugin` does not run in the Code tab. Click **+** next to the prompt box, then **Plugins**, **Add marketplace**, type `dexshii/studio-baseplate`, then add the **studio-baseplate** plugin. Installing from a terminal at the user scope also works: the desktop app picks it up in new sessions.
+
+After installing, start a new session (or restart the app) to see the theme.
+
+### Türkçe kurulum
+
+Terminalde `claude update`, sonra:
+
+```
+claude plugin marketplace add dexshii/studio-baseplate
+claude plugin install studio-baseplate@studio-baseplate
+```
+
+Masaüstü uygulamasında `/plugin` çalışmaz: mesaj kutusunun yanındaki **+** → **Plugins** → **Add marketplace** → `dexshii/studio-baseplate` → **studio-baseplate**'i ekle. Sonra yeni bir oturum aç.
 
 ## Music commands
 
